@@ -1,0 +1,19 @@
+### Team Members ###
+Saurabh Jagdhane - 1209572595
+Nikit Shah - 1209335370
+Mohit Nangare - 1209409068
+
+Steps to run the module:
+
+1. Place the fork.c under YourExtractedKernel/kernel/
+2. Place fbdheader.h in YourExtractedKernel/include/linux/
+3. make modules of your kernel. (So that fbdheader is also linked).
+4. make modules_install.
+5. make install.
+6. sudo reboot (Just to be on safer side) 
+7. Place a makefile and myCode.c in a folder on desktop.
+8. Make your module simply using make command.
+9. insmod myCode.ko to insert module into kernel.
+10. lsmod to make sure module has been inserted properly.
+11. Now the fork bomb testcases can be performed as forkBombKiller module is present.
+
