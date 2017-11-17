@@ -1,3 +1,8 @@
+1. Implemented the kernel thread for detecting fork bombs (Spam forking processes).
+2. Implemented the function of defusing a fork bomb within a kernel thread.
+3. Implemented the synchronization mechanisms so that the kernel thread can go to sleep when there is no sign of a fork bomb and wake up when there is a possible bomb. 
+4. Used kernel-level semaphores for synchronization.
+
 ### Team Members ###
 Saurabh Jagdhane - 1209572595
 Nikit Shah - 1209335370
